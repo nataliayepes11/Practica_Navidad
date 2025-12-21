@@ -5,3 +5,10 @@ Ejercicio: Las 12 Campanadas Llega la medianoche y tenemos que contar las campan
 2.	En cada vuelta del ciclo, imprimí por consola: "Campanada número [i] 🔔".
 3.	Al terminar el ciclo, imprimí: "¡Feliz Año Nuevo! 🥂".
 */
+
+console.log(" --- Contemos las campanadas --- ");
+
+for (let i = 1; i <=12; i++){
+          console.log("Campanada número " + i + " 🔔");
+}
+console.log("¡Feliz Año Nuevo! 🥂");
