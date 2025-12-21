@@ -8,12 +8,12 @@ Ejercicio: El outfit de Año Nuevo 👗👔 Tenemos que decidir qué ponernos se
 
 const prompt = require (`prompt-sync`)();
 const TEMPERATURA = 25;
-let outfit = parseFloat(prompt("Ingresá la temperatura actual (sólo el número): "));
+let tempAñoNuevo = parseFloat(prompt("Ingresá la temperatura actual (sólo el número): "));
 
 
-if (outfit > TEMPERATURA) {
-    console.log("Ponete ropa blanca y liviana");
+if (tempAñoNuevo > TEMPERATURA) {
+    console.log("Ponete ropa blanca y liviana, ¡hace calor! ☀️");
   
 } else {
-  console.log("Llevá un abrigo elegante por las dudas");
+  console.log("Llevá un abrigo elegante por las dudas 🧥");
 }
