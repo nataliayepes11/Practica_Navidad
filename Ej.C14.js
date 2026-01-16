@@ -7,3 +7,11 @@ Ejercicio: La Carta a los Reyes Magos 👑 Vamos a definir un objeto que represe
 ○	sePortoBien: (true o false)
 3.	Imprimí por consola una frase armada con esos datos, ejemplo: "Hola Reyes, soy [remitente] y quiero [deseo]".
 */
+
+let cartaReyes = {
+    remitente: "Natalia",
+    deseo: "una notebook nueva",
+    sePortoBien: true
+};
+
+console.log(`Hola Reyes, soy ${cartaReyes.remitente} y quiero ${cartaReyes.deseo}`);
