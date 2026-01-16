@@ -6,3 +6,12 @@ Ejercicio: Calculadora de Aguinaldo 💰 Vamos a crear una función para calcula
 3.	La función debe retornar (return) el resultado.
 4.	Afuera, llamá a la función, pasale un monto y mostrá el resultado en consola: "Tu bono navideño es de $...".
 */
+
+function calcularBono(sueldo) {
+    return sueldo * 0.10;
+}
+
+let sueldoUsuario = 2500000;
+let bono = calcularBono(sueldoUsuario);
+
+console.log("Tu bono navideño es de: $" + bono);
